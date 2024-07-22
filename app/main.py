@@ -7,7 +7,7 @@ from random import randrange
 
 app = FastAPI()
 
-
+# commit teste
 # schema usando pydantic, autentica o formato de dados passado para os endpoints
 class Post(BaseModel):
     title: str
