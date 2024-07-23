@@ -4,6 +4,9 @@ from fastapi.exceptions import HTTPException
 from fastapi.params import Body
 from pydantic import BaseModel
 from random import randrange
+from app import models
+from app.database import engine
+
 
 app = FastAPI()
 
